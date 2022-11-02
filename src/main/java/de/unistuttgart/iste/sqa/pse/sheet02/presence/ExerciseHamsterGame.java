@@ -27,7 +27,14 @@ public class ExerciseHamsterGame extends InspectableSimpleHamsterGame {
 	 */
 	public void turnRight() {
 		// your code goes here. Do not change other parts of this class!
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+	}
 
+	void pickGrains() {
+		while (paule.grainAvailable())
+			paule.pickGrain();
 	}
 
 	/**
